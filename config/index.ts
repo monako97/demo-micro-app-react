@@ -11,7 +11,7 @@ const conf: Partial<ConfigType> = {
     },
   },
   routerMode: 'hash',
-  basename: '/demo-micro-app-react',
+  basename: '/',
   publicPath: '/demo-micro-app-react/',
   importOnDemand: {
     lodash: {

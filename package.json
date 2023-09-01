@@ -6,8 +6,7 @@
     "scripts": {
         "start": "mo start micro react",
         "build": "mo build micro react",
-        "stylelint": "mo stylelint src",
-        "eslint": "mo eslint src"
+        "lint": "mo eslint src && mo stylelint src"
     },
     "author": "@moneko/cli",
     "license": "MIT",

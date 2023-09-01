@@ -5,6 +5,11 @@ const conf: Partial<ConfigType> = {
   output: {
     path: join(process.cwd(), 'docs'),
   },
+  minifier: {
+    css: {
+      type: 'cssnano',
+    },
+  },
   routerMode: 'hash',
   basename: '/demo-micro-app-react',
   publicPath: '/demo-micro-app-react/',

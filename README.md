@@ -2,21 +2,6 @@
 
 > 微应用模版
 
-[![version][version-tag]][npm-url]
-[![install size][size-tag]][size-url]
-[![download][download-tag]][npm-url]
-
-## 使用
-
-[![demo-micro-app-react][install-tag]][npm-url]
-
-[npm-url]: https://npmjs.org/package/demo-micro-app-react
-[install-tag]: https://nodei.co/npm/demo-micro-app-react.png
-[version-tag]: https://img.shields.io/npm/v/demo-micro-app-react/latest.svg?logo=npm
-[size-tag]: https://packagephobia.com/badge?p=demo-micro-app-react@latest
-[size-url]: https://packagephobia.com/result?p=demo-micro-app-react@latest
-[download-tag]: https://img.shields.io/npm/dm/demo-micro-app-react.svg?logo=docusign
-
 ## 安装依赖
 
 ```shell

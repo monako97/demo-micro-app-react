@@ -1,0 +1,35 @@
+{
+    "name": "demo-micro-app-react",
+    "version": "1.0.0",
+    "description": "微应用模版",
+    "main": "index.js",
+    "scripts": {
+        "start": "mo start micro react",
+        "build": "mo build micro react",
+        "stylelint": "mo stylelint src",
+        "eslint": "mo eslint src"
+    },
+    "author": "@moneko/cli",
+    "license": "MIT",
+    "devDependencies": {
+        "@moneko/cli": "^2.0.2",
+        "@moneko/core": "^3.0.3",
+        "@moneko/mock": "^2.0.0",
+        "@moneko/postcss": "1.0.30",
+        "@moneko/request": "1.0.2",
+        "@types/react": "18.2.21",
+        "eslint-config-neko": "2.0.1",
+        "eslint-plugin-react": "7.33.2",
+        "eslint-plugin-react-hooks": "4.6.0",
+        "stylelint-config-moneko": "1.0.18"
+    },
+    "dependencies": {
+        "@moneko/react": "1.0.3",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "shared-store-object": "^1.0.8"
+    },
+    "resolutions": {
+        "terser": "npm:@swc/core"
+    }
+}

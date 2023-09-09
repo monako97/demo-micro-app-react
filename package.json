@@ -11,9 +11,9 @@
     "author": "@moneko/cli",
     "license": "MIT",
     "devDependencies": {
-        "@moneko/cli": "^2.0.2",
-        "@moneko/core": "^3.0.3",
-        "@moneko/mock": "^2.0.0",
+        "@moneko/cli": "2.1.2",
+        "@moneko/core": "3.0.6",
+        "@moneko/mock": "2.0.0",
         "@moneko/postcss": "1.0.30",
         "@moneko/request": "1.0.2",
         "@types/react": "18.2.21",
@@ -23,12 +23,8 @@
         "stylelint-config-moneko": "1.0.18"
     },
     "dependencies": {
-        "@moneko/react": "1.0.3",
+        "@moneko/react": "1.0.4",
         "react": "18.2.0",
-        "react-dom": "18.2.0",
-        "shared-store-object": "^1.0.8"
-    },
-    "resolutions": {
-        "terser": "npm:@swc/core"
+        "shared-store-object": "1.0.8"
     }
 }

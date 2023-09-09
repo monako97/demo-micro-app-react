@@ -40,4 +40,18 @@ yarn build config=prod
 
 ## 配置文档
 
-[click](https://monako97.github.io/neko-ui/@moneko/core)
+[click](https://monako97.github.io/neko-ui/@moneko/config)
+
+以下依赖来自于 [moduleFederation](https://github.com/monako97/demo-module-federation)
+
+```js
+[
+  'react',
+  'react/jsx-runtime',
+  'react-dom',
+  'react-dom/client',
+  'react-router',
+  'react-router-dom',
+  'dayjs',
+];
+```

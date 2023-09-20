@@ -24,6 +24,7 @@
     },
     "dependencies": {
         "@moneko/react": "1.0.4",
+        "neko-ui": "^2.4.4",
         "react": "18.2.0",
         "shared-store-object": "1.0.8"
     }

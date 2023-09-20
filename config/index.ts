@@ -38,6 +38,7 @@ const conf: Partial<ConfigType> = {
             'react-router',
             'react-router-dom',
             'dayjs',
+            'neko-ui',
           ],
         },
       ],

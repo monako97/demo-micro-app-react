@@ -18,6 +18,10 @@ const conf: Partial<ConfigType> = {
     lodash: {
       transform: '${member}',
     },
+    'neko-ui': {
+      transform: 'es/${member}',
+      memberTransformers: ['dashed_case'],
+    },
   },
   moduleFederation: [
     {
@@ -38,7 +42,6 @@ const conf: Partial<ConfigType> = {
             'react-router',
             'react-router-dom',
             'dayjs',
-            'neko-ui',
           ],
         },
       ],

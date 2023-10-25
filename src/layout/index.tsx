@@ -1,17 +1,18 @@
 import React from 'react';
 import localizable, { locales, setLang } from '@app/locales';
-// import 'neko-ui/es/provider';
+import { theme } from 'neko-ui';
 import { useOutlet } from 'react-router-dom';
 import styles from './index.less';
 import Header from '@/components/header';
 import NavigatorBar from '@/components/navigate-bar';
 
+theme.setScheme('light');
 const Layout = () => {
   const { language } = localizable.lang;
   const outlet = useOutlet();
 
   return (
-    <n-provider scheme="light">
+    <n-provider>
       <div className={styles.body}>
         <Header />
         <main className={styles.view}>

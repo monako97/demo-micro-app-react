@@ -1,8 +1,6 @@
 import React, { type FC } from 'react';
 import dayjs from 'dayjs';
 import Card from 'demo_remote_lib/Card';
-// import 'neko-ui/es/carousel';
-// import 'neko-ui/es/cron';
 import { Carousel, Cron, Provider } from 'neko-ui';
 
 console.log(Carousel, Cron, Provider);

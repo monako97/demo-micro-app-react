@@ -12,21 +12,22 @@
     "author": "@moneko/cli",
     "license": "MIT",
     "devDependencies": {
-        "@moneko/cli": "2.2.2",
-        "@moneko/core": "3.1.5",
+        "@moneko/cli": "2.5.0",
+        "@moneko/core": "3.9.3",
         "@moneko/mock": "2.0.0",
-        "@moneko/postcss": "1.0.30",
+        "@moneko/postcss": "1.2.0",
         "@moneko/request": "1.0.2",
-        "@types/react": "18.2.21",
-        "eslint-config-neko": "2.0.2",
+        "@types/react": "18.2.42",
+        "eslint-config-neko": "2.2.0",
         "eslint-plugin-react": "7.33.2",
         "eslint-plugin-react-hooks": "4.6.0",
-        "stylelint-config-moneko": "1.0.18"
+        "stylelint-config-moneko": "1.2.1"
     },
     "dependencies": {
-        "@moneko/react": "1.0.4",
-        "neko-ui": "2.5.2",
-        "react": "18.2.0",
+        "@moneko/react": "1.2.0",
+        "neko-ui": "2.6.5",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
         "shared-store-object": "1.0.9"
     }
 }

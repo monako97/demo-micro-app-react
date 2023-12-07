@@ -10,7 +10,7 @@ rules:
     - 2
     - ignore:
       - dayjs
-      - demo_remote_lib
+      - demo_module_federation
       - \?raw$
       - ^@/
       - ^@app

@@ -1,10 +1,7 @@
-import { join } from 'path';
-import { type ConfigType, PACKAGENAME } from '@moneko/core';
+import { type ConfigType, PACKAGENAME, resolveProgramPath } from '@moneko/core';
 
 const conf: Partial<ConfigType> = {
-  output: {
-    path: join(process.cwd(), 'docs'),
-  },
+  output: resolveProgramPath('docs'),
   routerMode: 'hash',
   basename: `/${PACKAGENAME}/`,
   publicPath: `/${PACKAGENAME}/`,

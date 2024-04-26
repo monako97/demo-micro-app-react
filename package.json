@@ -7,7 +7,8 @@
         "start": "mo start micro react",
         "build": "mo build micro react",
         "stylelint": "mo stylelint src",
-        "eslint": "mo eslint src"
+        "eslint": "mo eslint src",
+        "lint": "npm run eslint && npm run stylelint"
     },
     "author": "moneko97",
     "license": "MIT",

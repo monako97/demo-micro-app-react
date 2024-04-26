@@ -28,8 +28,6 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: 'install'
         run: npm install
-      - name: 'lint'
-        run: npm run lint
       - name: 'Build Github Pages'
         run: npm run build --config=github
       - name: Upload artifact

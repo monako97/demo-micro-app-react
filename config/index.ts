@@ -7,12 +7,15 @@ const conf: Partial<ConfigType> = {
   publicPath: `/${PACKAGENAME}/`,
   // 按需引入
   importOnDemand: {
-    lodash: {
-      transform: '${member}',
-    },
     'neko-ui': {
       transform: 'es/${member}',
       memberTransformers: ['dashed_case'],
+    },
+    '@moneko/common': {
+      transform: 'lib/${member}',
+    },
+    lodash: {
+      transform: '${member}',
     },
   },
   moduleFederation: [

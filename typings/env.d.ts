@@ -1,1 +1,1 @@
-import '@moneko/react/env.d';
+import '@moneko/react/env';

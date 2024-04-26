@@ -2,7 +2,7 @@ import React from 'react';
 import localizable, { locales, setLang } from '@app/locales';
 import { theme } from 'neko-ui';
 import { useOutlet } from 'react-router-dom';
-import styles from './index.less';
+import * as styles from './index.less';
 import Header from '@/components/header';
 import NavigatorBar from '@/components/navigate-bar';
 

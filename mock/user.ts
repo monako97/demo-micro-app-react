@@ -1,4 +1,4 @@
-import type { MockConfiguration } from '@moneko/mock';
+import type { MockConfiguration } from '@moneko/core';
 
 const conf: MockConfiguration = {
   'POST /api/upload_file': (req, res) => {

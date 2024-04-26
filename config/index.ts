@@ -1,7 +1,7 @@
-import { type ConfigType, PACKAGENAME, resolveProgramPath } from '@moneko/core';
+import { type ConfigType, PACKAGENAME, resolveProgram } from '@moneko/core';
 
 const conf: Partial<ConfigType> = {
-  output: resolveProgramPath('docs'),
+  output: resolveProgram('docs'),
   routerMode: 'hash',
   basename: `/${PACKAGENAME}/`,
   publicPath: `/${PACKAGENAME}/`,

@@ -13,19 +13,19 @@
     "author": "moneko97",
     "license": "MIT",
     "devDependencies": {
-        "@moneko/cli": "2.9.4",
-        "@moneko/core": "3.14.0",
+        "@moneko/cli": "2.13.7",
+        "@moneko/core": "3.17.33",
         "@moneko/request": "1.0.2",
-        "@types/react": "18.3.0",
-        "eslint-config-neko": "2.7.1",
-        "eslint-plugin-react": "7.34.1",
-        "eslint-plugin-react-hooks": "4.6.1",
-        "stylelint-config-moneko": "2.3.2"
+        "@types/react": "18.3.3",
+        "eslint-config-neko": "2.7.6",
+        "eslint-plugin-react": "7.34.2",
+        "eslint-plugin-react-hooks": "4.6.2",
+        "stylelint-config-moneko": "2.4.0"
     },
     "dependencies": {
-        "@moneko/react": "1.4.5",
-        "react": "18.3.0",
-        "react-dom": "18.3.0",
-        "shared-store-object": "^1.1.0"
+        "@moneko/react": "1.4.8",
+        "react": "18.3.1",
+        "react-dom": "18.3.1",
+        "shared-store-object": "^1.1.1"
     }
 }

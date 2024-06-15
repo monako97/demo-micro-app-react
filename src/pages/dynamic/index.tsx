@@ -1,5 +1,5 @@
 import React, { type FC } from 'react';
-import { Outlet } from 'react-router-dom';
+import { Outlet } from '@moneko/react';
 
 const Home: FC = () => {
   return <Outlet />;

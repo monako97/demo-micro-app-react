@@ -10,6 +10,7 @@ rules:
     - 2
     - ignore:
       - dayjs
+      - react-router-dom
       - demo_module_federation
       - \?raw$
       - ^@/

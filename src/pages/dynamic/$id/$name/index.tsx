@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation } from '@moneko/react';
 import sso from 'shared-store-object';
 import { matchUtil } from '@/components/navigate-bar';
 

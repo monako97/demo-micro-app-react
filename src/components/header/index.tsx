@@ -1,7 +1,7 @@
+import * as styles from './index.less';
 import React, { useMemo } from 'react';
 import localizable from '@app/locales';
-import { useLocation } from 'react-router-dom';
-import * as styles from './index.less';
+import { useLocation } from '@moneko/react';
 import { matchUtil } from '../navigate-bar';
 
 const Header = () => {

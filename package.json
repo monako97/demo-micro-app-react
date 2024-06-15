@@ -13,8 +13,8 @@
     "author": "moneko97",
     "license": "MIT",
     "devDependencies": {
-        "@moneko/cli": "2.13.7",
-        "@moneko/core": "3.17.33",
+        "@moneko/cli": "2.14.2",
+        "@moneko/core": "3.17.35",
         "@moneko/request": "1.0.2",
         "@types/react": "18.3.3",
         "eslint-config-neko": "2.7.6",
@@ -23,7 +23,7 @@
         "stylelint-config-moneko": "2.4.0"
     },
     "dependencies": {
-        "@moneko/react": "1.4.8",
+        "@moneko/react": "1.5.1",
         "react": "18.3.1",
         "react-dom": "18.3.1",
         "shared-store-object": "^1.1.1"

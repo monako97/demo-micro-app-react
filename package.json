@@ -14,7 +14,7 @@
     "license": "MIT",
     "devDependencies": {
         "@moneko/cli": "2.14.2",
-        "@moneko/core": "3.17.35",
+        "@moneko/core": "3.17.42",
         "@moneko/request": "1.0.2",
         "@types/react": "18.3.3",
         "eslint-config-neko": "2.7.6",

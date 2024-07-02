@@ -1,9 +1,10 @@
 /* eslint-disable */
 import '@/global.less';
-// import a from '@app/entry?raw';
-// import d from 'dayjs';
+import a from 'a';
+import b from 'b';
+import c from 'c';
 
-// console.log(d);
+console.log(a, b, c);
 // 如果不需要在生命周期中操作, 可以将其删除然后重新运行
 // 微应用被挂载
 export async function mount(props: Record<string, unknown>) {

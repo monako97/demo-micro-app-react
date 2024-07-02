@@ -5,6 +5,11 @@ const conf: Partial<ConfigType> = {
   routerMode: 'hash',
   basename: `/${PACKAGENAME}/`,
   publicPath: `/${PACKAGENAME}/`,
+  virtualModule: {
+    a: { a: 1 },
+    b: 2,
+    c: 'export default "cs"',
+  },
   // 按需引入
   importOnDemand: {
     'neko-ui': {

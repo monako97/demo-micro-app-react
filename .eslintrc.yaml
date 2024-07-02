@@ -12,6 +12,7 @@ rules:
       - dayjs
       - react-router-dom
       - demo_module_federation
+      - demo-module-federation
       - \?raw$
       - ^@/
       - ^@app

@@ -1,8 +1,10 @@
-import * as styles from './index.less';
 import React, { useMemo } from 'react';
 import localizable from '@app/locales';
 import { useLocation } from '@moneko/react';
+
 import { matchUtil } from '../navigate-bar';
+
+import * as styles from './index.less';
 
 const Header = () => {
   const { t } = localizable;

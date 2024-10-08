@@ -1,7 +1,8 @@
-import * as styles from './index.less';
 import React from 'react';
 import localizable from '@app/locales';
 import { Link, useLocation } from '@moneko/react';
+
+import * as styles from './index.less';
 
 function createHash() {
   return Math.random().toString(36).substring(2);
@@ -56,6 +57,7 @@ export function matchUtil(pathname: string): MatchPath {
             p = rs[i];
             return;
           }
+          // eslint-disable-next-line @typescript-eslint/no-unused-vars
         } catch (error) {
           /* empty */
         }

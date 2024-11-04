@@ -1,10 +1,14 @@
 import neko from 'eslint-config-neko';
-import reactHooks from 'eslint-plugin-react-hooks';
-import react from 'eslint-plugin-react/configs/recommended.js';
+import react from 'eslint-plugin-react';
+import hooks from 'eslint-plugin-react-hooks';
 
 const conf = [
   ...neko.configs.recommended,
   { ignores: ['**/**/*.mdx?', 'lib', 'docs', 'coverage', 'prism.js'] },
 ];
 
-export default conf.concat({ settings: { react: { version: 'detect' } }, plugins: { 'react-hooks': reactHooks } },).concat(react);
+export default conf.concat(react.configs.flat.recommended).concat({
+  settings: { react: { version: 'detect' } },
+  plugins: { 'react-hooks': hooks },
+  rules: hooks.configs.recommended.rules,
+});

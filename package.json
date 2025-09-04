@@ -1,31 +1,29 @@
 {
-    "name": "demo-micro-app-react",
-    "version": "1.0.0",
-    "description": "微应用模版",
-    "main": "index.js",
-    "scripts": {
-        "start": "mo start micro react",
-        "build": "mo build micro react",
-        "stylelint": "mo stylelint src",
-        "eslint": "mo eslint src",
-        "lint": "npm run eslint && npm run stylelint"
-    },
-    "author": "moneko97",
-    "license": "MIT",
-    "devDependencies": {
-        "@moneko/cli": "2.16.0",
-        "@moneko/core": "3.24.1",
-        "@moneko/request": "1.0.4",
-        "@types/react": "18.3.12",
-        "eslint-config-neko": "3.0.0",
-        "eslint-plugin-react": "7.37.2",
-        "eslint-plugin-react-hooks": "5.0.0",
-        "stylelint-config-moneko": "2.4.2"
-    },
-    "dependencies": {
-        "@moneko/react": "1.6.10",
-        "react": "18.3.1",
-        "react-dom": "18.3.1",
-        "shared-store-object": "^1.1.4"
-    }
+  "name": "demo-micro-app-react",
+  "version": "1.0.0",
+  "description": "微应用模版",
+  "main": "index.js",
+  "scripts": {
+    "pin": "mo pin",
+    "start": "mo start micro react",
+    "build": "mo build micro react",
+    "stylelint": "mo stylelint src",
+    "eslint": "mo eslint src",
+    "lint": "npm run eslint && npm run stylelint",
+    "prepare": "mo setup"
+  },
+  "author": "moneko97",
+  "license": "MIT",
+  "devDependencies": {
+    "@moneko/core": "3.52.2",
+    "@moneko/request": "1.6.2",
+    "@types/react": "19.1.12"
+  },
+  "dependencies": {
+    "@moneko/react": "2.0.14",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "shared-store-object": "1.2.8"
+  },
+  "packageManager": "pnpm@10.14.0"
 }

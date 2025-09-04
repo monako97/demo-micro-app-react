@@ -1,27 +1,18 @@
-import { type ConfigType, PACKAGENAME, resolveProgram } from '@moneko/core';
+import { type ConfigType, isDev, PACKAGENAME, resolveProgram } from '@moneko/core';
 
 const conf: Partial<ConfigType> = {
-  output: resolveProgram('docs'),
+  output: {
+    path: resolveProgram('docs'),
+    crossOriginLoading: false,
+  },
   routerMode: 'hash',
   basename: `/${PACKAGENAME}/`,
   publicPath: `/${PACKAGENAME}/`,
   virtualModule: {
     a: { a: 1 },
-    b: 2,
     c: 'export default "cs"',
   },
-  // 按需引入
-  importOnDemand: {
-    'neko-ui': {
-      transform: 'es/${member}',
-    },
-    '@moneko/common': {
-      transform: 'lib/${member}',
-    },
-    lodash: {
-      transform: '${member}',
-    },
-  },
+  reactJsxRuntime: isDev ? 'classic' : 'automatic',
   moduleFederation: [
     {
       name: 'demo_micro_app_react',
